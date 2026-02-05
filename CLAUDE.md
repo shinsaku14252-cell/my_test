@@ -1,131 +1,131 @@
-# CLAUDE.md - AI Assistant Guidelines
+# CLAUDE.md - AIアシスタント向けガイドライン
 
-This document provides guidance for AI assistants working with this repository.
+このドキュメントは、このリポジトリで作業するAIアシスタント向けのガイダンスを提供します。
 
-## Repository Overview
+## リポジトリ概要
 
-**Name:** my_test
-**Type:** Learning/Practice Repository
-**Purpose:** A test repository for practicing Git and GitHub workflows
-**Primary Language:** Text files (no programming language)
+**名前:** my_test
+**種類:** 学習・練習用リポジトリ
+**目的:** GitとGitHubのワークフローを練習するためのテストリポジトリ
+**主要言語:** テキストファイル（プログラミング言語なし）
 
-## Directory Structure
+## ディレクトリ構成
 
 ```
 /home/user/my_test/
-├── CLAUDE.md                    # AI assistant guidelines (this file)
-├── README.md                    # Repository description (Japanese)
-├── hello_from_antigravity.txt   # Test file for Git practice
-└── GitHub_practice.txt          # Placeholder file for practice
+├── CLAUDE.md                    # AIアシスタント向けガイドライン（このファイル）
+├── README.md                    # リポジトリの説明（日本語）
+├── hello_from_antigravity.txt   # Git練習用のテストファイル
+└── GitHub_practice.txt          # 練習用のプレースホルダーファイル
 ```
 
-## File Descriptions
+## ファイル説明
 
-| File | Description |
-|------|-------------|
-| `README.md` | Main documentation - contains Japanese text: "これはテスト用のリポジトリです！" (This is a repository for testing!) |
-| `hello_from_antigravity.txt` | Test file with greeting message |
-| `GitHub_practice.txt` | Empty placeholder file for Git practice |
-| `CLAUDE.md` | Guidelines for AI assistants working with this repo |
+| ファイル | 説明 |
+|----------|------|
+| `README.md` | メインドキュメント - 「これはテスト用のリポジトリです！」という日本語テキストを含む |
+| `hello_from_antigravity.txt` | 挨拶メッセージを含むテストファイル |
+| `GitHub_practice.txt` | Git練習用の空のプレースホルダーファイル |
+| `CLAUDE.md` | このリポジトリで作業するAIアシスタント向けガイドライン |
 
-## Development Workflows
+## 開発ワークフロー
 
-### Git Workflow
+### Gitワークフロー
 
-This repository uses a simple Git workflow:
+このリポジトリはシンプルなGitワークフローを使用します：
 
-1. **Main Branch:** `main` - primary branch for stable content
-2. **Feature Branches:** Use `claude/` prefix for AI-generated changes
+1. **メインブランチ:** `main` - 安定したコンテンツ用のプライマリブランチ
+2. **フィーチャーブランチ:** AI生成の変更には `claude/` プレフィックスを使用
 
-### Making Changes
+### 変更の作成方法
 
 ```bash
-# Check current status
+# 現在のステータスを確認
 git status
 
-# Stage changes
+# 変更をステージング
 git add <filename>
 
-# Commit with descriptive message
-git commit -m "Description of changes"
+# 説明的なメッセージでコミット
+git commit -m "変更の説明"
 
-# Push to remote
+# リモートにプッシュ
 git push -u origin <branch-name>
 ```
 
-## Conventions
+## 規約
 
-### Commit Messages
+### コミットメッセージ
 
-- Use clear, descriptive commit messages
-- Start with a verb (Add, Create, Update, Fix, Remove)
-- Keep subject line under 50 characters when possible
+- 明確で説明的なコミットメッセージを使用する
+- 動詞で始める（Add, Create, Update, Fix, Remove）
+- 件名は可能な限り50文字以内に収める
 
-### File Naming
+### ファイル命名
 
-- Use lowercase with underscores for text files (e.g., `hello_from_antigravity.txt`)
-- Use standard names for documentation (e.g., `README.md`, `CLAUDE.md`)
+- テキストファイルには小文字とアンダースコアを使用（例：`hello_from_antigravity.txt`）
+- ドキュメントには標準的な名前を使用（例：`README.md`, `CLAUDE.md`）
 
-### Language
+### 言語
 
-- Documentation may include Japanese text
-- English is acceptable for technical content and AI-generated documentation
+- ドキュメントには日本語テキストを含めることができる
+- 技術的なコンテンツやAI生成のドキュメントには英語も使用可能
 
-## AI Assistant Guidelines
+## AIアシスタント向けガイドライン
 
-### When Working on This Repository
+### このリポジトリで作業する際の注意点
 
-1. **Understand the Context:** This is a minimal practice repository, not a production codebase
-2. **Keep Changes Simple:** Match the repository's straightforward nature
-3. **Document Changes:** Update relevant documentation when adding files
-4. **Follow Git Best Practices:** Use meaningful commit messages and proper branching
+1. **コンテキストを理解する:** これは本番コードベースではなく、最小限の練習用リポジトリである
+2. **変更はシンプルに:** リポジトリの簡潔な性質に合わせる
+3. **変更を文書化する:** ファイルを追加する際は関連ドキュメントを更新する
+4. **Gitのベストプラクティスに従う:** 意味のあるコミットメッセージと適切なブランチングを使用する
 
-### What AI Assistants Should Know
+### AIアシスタントが知っておくべきこと
 
-- No build system or package manager is configured
-- No tests or CI/CD pipelines exist
-- The repository is primarily for learning Git operations
-- Files are plain text with no special formatting requirements
+- ビルドシステムやパッケージマネージャーは設定されていない
+- テストやCI/CDパイプラインは存在しない
+- このリポジトリは主にGit操作の学習用である
+- ファイルは特別なフォーマット要件のないプレーンテキストである
 
-### Recommended Actions for AI Assistants
+### AIアシスタントへの推奨事項
 
-- **DO:** Create clear documentation, practice Git workflows, add helpful text files
-- **DO:** Follow the existing simple structure
-- **DON'T:** Over-engineer solutions for this practice repository
-- **DON'T:** Add complex build systems unless specifically requested
+- **推奨:** 明確なドキュメントの作成、Gitワークフローの練習、有用なテキストファイルの追加
+- **推奨:** 既存のシンプルな構造に従う
+- **非推奨:** この練習用リポジトリに対する過度なエンジニアリング
+- **非推奨:** 明示的に要求されない限り複雑なビルドシステムを追加しない
 
-## Configuration
+## 設定
 
-### No Configuration Files Present
+### 設定ファイルなし
 
-This repository intentionally has no configuration files:
-- No `package.json`, `requirements.txt`, or build files
-- No `.gitignore` (consider adding one if binary files are introduced)
-- No CI/CD configuration
+このリポジトリには意図的に設定ファイルがありません：
+- `package.json`、`requirements.txt`、ビルドファイルなし
+- `.gitignore` なし（バイナリファイルを導入する場合は追加を検討）
+- CI/CD設定なし
 
-### If Adding Code in the Future
+### 将来コードを追加する場合
 
-Consider adding:
-- `.gitignore` - to exclude generated files
-- Appropriate package manager config for the chosen language
-- Test configuration if implementing testable code
+以下の追加を検討してください：
+- `.gitignore` - 生成ファイルを除外するため
+- 選択した言語に適したパッケージマネージャー設定
+- テスト可能なコードを実装する場合はテスト設定
 
-## Quick Reference
+## クイックリファレンス
 
-| Task | Command |
-|------|---------|
-| Check status | `git status` |
-| View history | `git log --oneline` |
-| Create branch | `git checkout -b branch-name` |
-| Push changes | `git push -u origin branch-name` |
+| タスク | コマンド |
+|--------|----------|
+| ステータス確認 | `git status` |
+| 履歴表示 | `git log --oneline` |
+| ブランチ作成 | `git checkout -b branch-name` |
+| 変更をプッシュ | `git push -u origin branch-name` |
 
-## Repository Metadata
+## リポジトリメタデータ
 
-- **Created by:** shinsaku14252-cell
-- **Creation Date:** January 2026
-- **License:** Not specified
-- **Remote:** GitHub (via proxy)
+- **作成者:** shinsaku14252-cell
+- **作成日:** 2026年1月
+- **ライセンス:** 未指定
+- **リモート:** GitHub（プロキシ経由）
 
 ---
 
-*This CLAUDE.md was created to help AI assistants understand and work with this repository effectively.*
+*このCLAUDE.mdは、AIアシスタントがこのリポジトリを効果的に理解し作業できるよう作成されました。*
